@@ -34,12 +34,12 @@ docker ps --size      => to check the size of docker containers<br>
 docker ps -aq         =>list all containers id<br> 
 docker rm -v          => used to remove container volume<br> 
 e.g                   => docker run -v volName:/var/lib <br> 
-      -p    => used for assigning port -p 8080:80<br> 
-      -d    => usd to run a container in detached mode<br> 
-      -exec => used to attach with a running container<br> 
-      --rm  => if you use this while run while running container then it will delete/remove container right after when it got executed<br> 
-      ctrl+p+q => used to detach from a running container cli<br> 
-      docker cp db.sql 40e7e1697192:/ to copy from local to docker container<br> 
+ >     -p    => used for assigning port -p 8080:80<br> 
+ >     -d    => usd to run a container in detached mode<br> 
+ >     -exec => used to attach with a running container<br> 
+ >     --rm  => if you use this while run while running container then it will delete/remove container right after when it got executed<br> 
+>      ctrl+p+q => used to detach from a running container cli<br> 
+>      docker cp db.sql 40e7e1697192:/ to copy from local to docker container<br> 
 
 ##Docker-Compose Commands
 docker-compose up     => used for starting services from scratch<br> 
@@ -54,6 +54,6 @@ docker-compose unpause=> used for unpausing paused services<br>
 docker-compose up -d --scale serviceName=2,3,4 => for scaling a service<br> 
 docker-compose top    => used for giving docker services pid, user, and time<br> 
 docker-compose restart=> used to restart services<br> 
-      build           => build or rebuild services bundle <br> 
-      exec            => execute a command in running container<br> 
-      images          => give list of images<br> 
+>      build           => build or rebuild services bundle <br> 
+>      exec            => execute a command in running container<br> 
+>      images          => give list of images<br> 
