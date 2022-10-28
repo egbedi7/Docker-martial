@@ -9,7 +9,7 @@ Dockerfile is a text file which contains all instructions and commands to build 
 
 ## Docker-Compose
 Docker-compose is a YAML file, used to write configurations to run multiple containers in one go. In Docker-Compose a single command is used to run multiple services, i-e to start multiple services and can run the whole app in one go. Most famous command to start and run services,
-### docker-compose up
+#### docker-compose up
 
 
 ## Docker Commands
