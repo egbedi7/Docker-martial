@@ -41,7 +41,7 @@ e.g                   => docker run -v volName:/var/lib <br>
 >      ctrl+p+q => used to detach from a running container cli<br> 
 >      docker cp db.sql 40e7e1697192:/ to copy from local to docker container<br> 
 
-##Docker-Compose Commands
+## Docker-Compose Commands
 docker-compose up     => used for starting services from scratch<br> 
 docker-compose up -d  => used for starting services in detached mode<br> 
 docker-compose start  => used for starting composer services(existing services)<br> 
